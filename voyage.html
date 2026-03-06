@@ -10,34 +10,46 @@
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 	
+
 	<body style="background-color: #00adff;">
 		
 		<div class="navbar">
-			<a href="index.html">Aceuille</a>
+			<a href="index.html">Accueil</a>
 			<a href="poeme.html">Poème du jour</a>
 			<a href="voyage.html">Voyage</a>
 			<a href="biographie.html">Biographie</a>
 		</div>
 		
 		<br>
+		<!-- Ceci est le début de mon introduction du voyage-->
 	<center>	
 		<h1><b>Thaïlande</b></h1>
 		<img src="images/ThailandCapital.jpeg" width="400"/>
-	</center>
-	<p>Le plan du voyage consiste de resté à Phuket pour une semaine pour se d'étendre sur les plages de Phuket au long de l'océan avec l'eau claire et aller au parc national de Khao Sok sur 
+	
+	<p class="boite">Le plan du voyage consiste de resté à Phuket pour une semaine pour se d'étendre sur les plages de Phuket au long de l'océan avec l'eau claire et aller au parc national de Khao Sok sur 
 	des beateaux touristiques dans des grottes et aller plongée en apnée dans des récif de corail. Après on vas aller directement dans le centre de Thaïlande, le capitale. À Bangkok on vas resté 
 	dans un hotel proche du park Lumpini, on vas dégusté du nourriture traditionelle et visité des attraction tourristique popullaire. Ces attraction touristique consiste du parc Lumpini et le 
 	Big Buddha de Phuket. </p>
+	</center>
 	<hr>
+
 		
-		
+		<!-- Ceci est le début de mes attraction tourristique que l'on vas visiter.-->
 		<ol>
-			<li>Big Buddha de Phuket <img src="https://trisara.com/wp-content/uploads/2024/09/A-Visit-To-Phuket1-768x492-1.jpg" alt="Big Buddha" width="400"/>
-			<li>Parc Lumpini <img src="https://cdn-kdbbh.nitrocdn.com/YjtFWUmJSrCSyPSGaFbWDNUzeWBNaAGe/assets/images/optimized/rev-183372f/kellerhenson.com/wp-content/uploads/2024/09/Lumpini-Park-710x435.png" alt="Parc Lumpini" width="400"/>
-			<li>Parc national de Khao Sok <img src="https://www.tourismethai.fr/wp-content/uploads/2024/07/3.3-Khao-Sok-forest-and-lake-scaled.jpg" alt"Parc national Khao Sok" width="400"/>
+			<li><h2>Big Buddha de Phuket</h2>
+			<br>
+			<img src="https://trisara.com/wp-content/uploads/2024/09/A-Visit-To-Phuket1-768x492-1.jpg" alt="Big Buddha" width="400"/>
+			<li><h2>Parc Lumpini </h2>
+			<br>
+			<img src="https://cdn-kdbbh.nitrocdn.com/YjtFWUmJSrCSyPSGaFbWDNUzeWBNaAGe/assets/images/optimized/rev-183372f/kellerhenson.com/wp-content/uploads/2024/09/Lumpini-Park-710x435.png" alt="Parc Lumpini" width="400"/>
+			<li><h2>Parc national de Khao Sok </h2>
+			<br>
+			<img src="https://www.tourismethai.fr/wp-content/uploads/2024/07/3.3-Khao-Sok-forest-and-lake-scaled.jpg" alt"Parc national Khao Sok" width="400"/>
 		</ol>
 		
 		<!--source https://www.w3schools.com/css/css_table.asp -->
+		<!-- J'ai utiliser une style interne ici, car le style s'applique a seulement cette boite alors il ne faut pas l'ajouté dans le dossier de style.-->
+		<!-- Ceci est le début de mon tableau de mets popullaire.-->
 		<style>
 		table, th, td {
   border: 2px solid black;
@@ -46,8 +58,11 @@
 		table {
   border-collapse: collapse;
 }
+
+
 		</style>
-		<table border=1>
+		<table>
+		<!-- le thead permet de faire le texte en gras sans utiliser la balise b pour le faire. j'ai utiliser ceci pour mieux organiser mon code et de le rendre plus professionnel.-->
 			<thead>
 				<tr>
 					<th>Nouriturre</th>
@@ -55,6 +70,8 @@
 					<th>Place</th>
 				</tr>
 			</thead>
+			<!-- le tbody ne fait rien de spécifique comme le thead mais sa oganise mon code mieux.-->
+			<tbody>
 				<tr>
 					<td>Pad Thaï</td>
 					<td><img src="https://www.seriouseats.com/thmb/gLZ3ZlKXVTGpgspZvvS8Afnw2TA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/20250214-SEA-PadThai-AmandaSuarez-hero-4251c730d61a40ba935f2d43153d6862.jpg" alt="Pad Thaï" width="200"/> </td>
@@ -70,6 +87,7 @@
 					<td><img src="https://asianinspirations.com.au/wp-content/uploads/2023/07/0C9A7280R_LowRes%20(1).jpg" alt="Khao Soi" width="250"/></td>
 					<td>Place</td>
 				</tr>
+			</tbody>
 		</table>
 		<hr>
 		
